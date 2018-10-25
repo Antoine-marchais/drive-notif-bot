@@ -9,7 +9,7 @@ app.get("/secret",function(req,res){
 });
 app.get("/googlea49ca8e20087d2e8.html",function(req,res){
     res.statusCode = 200;
-    res.send("coucou");
+    res.send("google-site-verification: googlea49ca8e20087d2e8.html");
 })
 
 app.listen(PORT);
