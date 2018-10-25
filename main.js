@@ -7,6 +7,10 @@ app.get("/secret",function(req,res){
     res.statusCode = 200;
     res.send('coucou');
 });
+app.get("/googlea49ca8e20087d2e8.html",function(req,res){
+    res.statusCode = 200;
+    res.send("coucou");
+})
 
 app.listen(PORT);
 
