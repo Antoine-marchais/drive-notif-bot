@@ -11,7 +11,7 @@ app.get("/googlecc96d596baba5bdf.html",function(req,res){
 });
 
 app.post("/",function(req,res){
-    console.log(req);
+    console.log(req.body);
     res.statusCode = 200;
     res.send("ok");
 })
